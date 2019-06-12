@@ -8,6 +8,7 @@
 bool sortStrings(std::string a, std::string b)
 {
     // sort strings and compare
+
     std::sort(a.begin(), a.end());
     std::sort(b.begin(), b.end());
     std::cout << a << ", " << b << "\n";
